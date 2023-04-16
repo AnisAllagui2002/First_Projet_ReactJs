@@ -1,0 +1,282 @@
+@import "bootstrap/dist/css/bootstrap.min.css";
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.form-control {
+    width: 50%;
+}
+
+.container {
+    margin-bottom: 100px;
+    padding: 0%;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    background-color: white;
+    width: 100%;
+}
+
+.tit {
+    font-size: 24px;
+    color: #61dafb;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+#hidden {
+    color: #fff;
+    font-size: 30px;
+    width: 300px;
+    transition: width 2s;
+}
+
+#hidden:hover {
+    display: block;
+    width: 600px;
+}
+
+#titre1 {
+    display: flex;
+    flex-direction: column;
+}
+
+#lien {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 93px;
+}
+
+#lien1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+#lien1 a {
+    text-decoration: none;
+    color: black;
+    font-family: "Poppins-Regular";
+    font-size: 16px;
+}
+
+#lien1 a:hover {
+    border-bottom: 2px solid #61dafb;
+    color: #61dafb;
+}
+
+.container-header {
+    padding: 0% 3%;
+    display: flex;
+    align-items: center;
+}
+
+#image1 {
+    width: 30%;
+    object-fit: contain;
+}
+
+#image2 {
+    width: 62%;
+    object-fit: contain;
+}
+
+.Nav-Link {
+    color: #61dafb !important;
+}
+
+#anis {
+    width: 100%;
+    padding-right: 21%;
+    display: flex;
+}
+
+.title {
+    background-color: #222222;
+}
+
+#title {
+    padding: 5% 20%;
+    text-align: left;
+    width: 100%;
+    color: aqua;
+    font-size: x-large;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#contenue {
+    margin-top: 81px;
+    width: 100%;
+}
+
+#nombre {
+    width: 30%;
+    padding-left: 3%;
+    text-align: left;
+}
+
+#ajform {
+    width: 30%;
+    padding-left: 14%;
+}
+
+label {
+    width: 50%;
+    text-align: left;
+}
+
+#ajout {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 2%;
+    padding: 1% 8%;
+}
+
+h3 {
+    color: white;
+    font-weight: 700;
+    font-size: 2.1rem;
+    margin: 2rem 0;
+}
+
+#im {
+    width: 100%;
+    height: 120px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+.center {
+    display: flex;
+}
+
+#util {
+    width: 100%;
+    color: #282c34;
+}
+
+.cont {
+    padding: 1% 10%;
+    margin-bottom: 50px;
+}
+
+.conta {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.filtre {
+    margin-bottom: 20px;
+}
+
+#padd {
+    padding: 1% 5%;
+}
+
+.cartee {
+    border: 2px solid grey;
+    border-radius: 30px;
+    background-color: whitesmoke;
+    width: 100%;
+    box-shadow: 6px 5px 1px lightblue;
+}
+.pointer{
+    cursor: pointer;
+}
+
+#goo {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.Nav-Link:hover {
+    color: #61dafb;
+}
+
+.me-auto {
+    margin-right: auto !important;
+    width: 100%;
+}
+
+.form-select {
+    width: 50%;
+}
+
+#forem {
+    padding: 0% 5%;
+}
+
+.nav {
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    list-style: none;
+    width: 100%;
+}
+
+.me-auto {
+    margin-right: auto !important;
+}
+
+#linkk:hover {
+    border-bottom: 2px solid #fff;
+    color: #fff;
+}
+
+footer {
+    background-color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 0% 0%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    transition: padding 1s, transform 2s;
+}
+
+footer:hover {
+    padding: 1% 0%;
+    background-color: #222222;
+}
